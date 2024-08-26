@@ -1,13 +1,13 @@
-# coderhouse-javascript--2024
+# Coderhouse - JavaScript
 
-Coderhouse - JavaScript
-Comisión #59970
+## Comisión #59970
+
 Año: 2024
-Repositorio de Entregas
 
 Alumna: Majo López Quintana
 
-ARCHIVOS DE ENTREGAS:
+Repositorio de Entregas: https://github.com/Majolq/coderhouse-javascript--2024
 
-Carpeta: pre-entrega-1
-BRANCH: main
+Carpeta: /entrega-01
+
+Branch: main
