@@ -8,6 +8,6 @@ Alumna: Majo López Quintana
 
 Repositorio de Entregas: https://github.com/Majolq/coderhouse-javascript--2024
 
-Carpeta: /entrega-01
+Carpeta: /entrega-02
 
 Branch: main
