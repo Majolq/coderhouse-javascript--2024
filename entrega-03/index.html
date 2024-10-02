@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderhouse - JavaScript | Entrega N°3 | Alumna: Majo López Quintana</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="text">
+            <h1>¿Qué deseas comer?</h1>
+        </div>
+    </header>
+    <main class="wrapper">
+        <!-- PLATOS -->
+        <section class="platos">
+            <h2 class="platos__title">Elegí el Menú y agregalo al carrito &#x1f37d;&#xfe0f; </h2>
+            <ul id="platos" class="platos__list">
+                <!-- <li class="platos__item">
+                    <img class="platos__img" src="./images/01.jpeg" alt="">
+                    <h3 class="platos__name">Pizza</h3>
+                    <p class="platos__price">$12000</p>
+                    <button class="platos__btn">Agregar al carrito</button>
+                </li> -->
+            </ul>
+        </section>
+
+        <section class="carrito">
+            <h2 class="carrito__title">Carrito del Menú 🛒</h2>
+            
+            <div id="carrito-vacio" class="carrito__vacio">
+                <h4 class="carrito__subtitle">El carrito está vacío. &#x1f615;</h4>
+            </div>
+
+            <div id="carrito-platos" class="carrito__platos hidden">
+                <h4 class="carrito__subtitle">El Menú que elegiste es:</h4>
+                <ul class="carrito__list">
+                    <!-- <li class="carrito__item">
+                        <img class="carrito__img" src="./images/01.jpeg" alt="">
+                        <h3 class="carrito__name">Pizza</h3>
+                        <p class="carrito__price">$12000</p>
+                        <p class="carrito__quantity">Cantidad: 5</p>
+                        <p class="carrito__subtotal">Subtotal: $24000</p>
+                        <button class="carrito__btn">&#x2716;&#xfe0f;</button>
+                    </li> -->
+                </ul>
+                <div class="carrito__total">
+                    <h2>El Total es: <span id="carrito-total">$0</span></h2>
+                </div>
+            </div>
+
+        </section>
+
+    
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
